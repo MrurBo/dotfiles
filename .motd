@@ -1,0 +1,5 @@
+# Show ASCII logo (Neofetch with just logo)
+
+( neofetch --ascii_colors --ascii "$(jp2a )" 4 1 --disable everything ) &
+read -p "Press enter to continue"
+
